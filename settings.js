@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=Y3khTIDD#8aF5Dk_6WDmUywh61n_LDDlrLA77FcbK6_-7FcM1Ggw' : process.env.SESSION_ID,
-PREFIX: process.env.PREFIX || '.' ,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=XIF2xLAJ#gct9X_q32ZpI3BF5VntpG0Ae1rKUp7PYloIFvQw-KFw' : process.env.SESSION_ID,
+PREFIX: process.env.PREFIX || '#' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
-MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"privete" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,//AI_REPLAY KARANA KOTASA ADD KARA
@@ -18,9 +18,9 @@ ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK
 ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,    
 WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "false" : process.env.WELCOME_GOODBYE,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
-ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
+ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'false' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
-ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
+ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "true" : process.env.ALLWAYS_OFFLINE,
 READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
 FAKE_RECORDING: process.env.FAKE_RECORDING === undefined ? "false" : process.env.FAKE_RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
